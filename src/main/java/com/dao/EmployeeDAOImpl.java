@@ -8,8 +8,7 @@ import java.util.Optional;
 
 import com.dto.Employee;
 
-public class EmployeeDAOImpl implements EmployeeDAO {
-	
+public class EmployeeDAOImpl implements EmployeeDAO {	
 	Map<Integer,Employee> employeeDB = new HashMap<>();
 
 	public Optional<Employee> addEmployee(Employee employee) {

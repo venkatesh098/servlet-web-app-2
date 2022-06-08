@@ -7,8 +7,6 @@ import com.dao.EmployeeDAOImpl;
 import com.dto.Employee;
 
 
-
-
 public class EmployeeServiceImpl implements EmployeeService {
 	
 	EmployeeDAOImpl employeeDAOImpl = new EmployeeDAOImpl();

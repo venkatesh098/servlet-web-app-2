@@ -7,8 +7,6 @@ public class Employee {
 	private Double empSal;
 	private String empDep;
 	
-	
-	
 	public Employee(Integer empId, String empName, Double empSal, String empDep) {
 		super();
 		this.empId = empId;

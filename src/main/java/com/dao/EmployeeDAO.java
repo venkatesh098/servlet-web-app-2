@@ -6,7 +6,6 @@ import java.util.Optional;
 import com.dto.Employee;
 
 
-
 public interface EmployeeDAO {
 	
 	public Optional<Employee> addEmployee(Employee employee);
